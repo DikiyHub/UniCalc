@@ -5,8 +5,11 @@ from tkinter import messagebox, ttk
 # Funkcijas apraksts
 def convert():
     try:
-        # Iegūt ievades vērtību
-        value = float(entry_input.get())
+# Pārbauda, vai vērtība ir pozitīva
+        if value <= 0:
+            messagebox.showwarning('Brīdinājums', 'Lūdzu, ievadiet skaitli, kas lielāks par 0!')
+            return
+
         category = combo_units.get()
         result = 0
         symbol = ''
