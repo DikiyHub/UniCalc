@@ -12,3 +12,4 @@ Tika izmantots Waterfall modelis, jo projekta mērķi bija skaidri definēti.
 ### 13. Testēšana
 1. Ievadot '100' un izvēloties 'Metri uz Kilometriem', rezultāts ir '0.10 km'.
 2. Ievadot tekstu 'abc', parādās kļūdas paziņojums (Error handling).
+3. Ievadot negatīvu skaitli vai nulli - programma izvada brīdinājumu, ka vērtībai jābūt pozitīvai.
