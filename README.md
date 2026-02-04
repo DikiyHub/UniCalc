@@ -8,3 +8,18 @@ Skolēni, studenti un biroja darbinieki.
 
 ### 5. Projekta apraksts
 Lietotne izstrādāta Python valodā, izmantojot Tkinter bibliotēku grafiskajai saskaņai.
+
+### 6. Funkcionālās prasības
+* Skaitļu ievade konvertēšanai.
+* Mērvienību izvēle no saraksta.
+* Rezultāta attēlošana pēc pogas nospiešanas.
+
+### 7. Nefunkcionālās prasības
+* Intuitīva lietotāja saskarne.
+* Kļūdu apstrāde (ievadīti nepareizi dati).
+
+### 9. Izstrādes plāns
+1. Prasību analīze.
+2. GUI (interfeisa) izstrāde.
+3. Loģikas un aprēķinu pievienošana.
+4. Testēšana un kļūdu labošana.
